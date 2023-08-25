@@ -20,7 +20,7 @@ find_package(Qt5OpenGL REQUIRED)
 find_package(Qt5OpenGLExtensions REQUIRED)
 find_package(Qt5Svg REQUIRED)
 
-find_package(PCL 1.7 REQUIRED)
+find_package(PCL 1.9 REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS} include)
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
